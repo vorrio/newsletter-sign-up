@@ -1,0 +1,59 @@
+.success-container {
+	width: 100%;
+	min-height: 100vh;
+	padding: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: var(--white);
+}
+
+.message-content {
+	display: grid;
+	gap: 24px;
+}
+	
+.success-image {
+	margin-top: 16vh;
+	width: 64px;
+}
+
+.message-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: var(--dark-slate-grey);
+}
+
+.message-text {
+	margin-bottom: 32px;	
+	font-size: 1rem;
+	font-weight: 400;
+	color: var(--dark-slate-grey);
+}
+
+.your-email {
+	font-weight: 700;
+}
+
+.message-btn {
+	width: 100%;
+}
+
+@media only screen and (min-width: 1000px) {
+	.success-container {
+		width: 500px;
+		min-height: auto;
+		border-radius: 32px;
+		padding: 64px;
+	}
+
+	.message-title {
+		font-size: 3.5rem;
+		font-weight: 700;
+		color: var(--dark-slate-grey);
+	}
+
+	.success-image {
+		margin-top: 0px;
+	}
+}
