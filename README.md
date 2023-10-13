@@ -27,7 +27,7 @@ Your users should be able to:
 
 ## Links
 
-- Live Site URL: [](https://vorrio.github.io/newsletter-sign-up/)
+[Live Site URL](https://vorrio.github.io/newsletter-sign-up/)
 
 ## Built with
 
