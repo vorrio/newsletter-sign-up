@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
 
-	const [isSubmitted, setIsSubmitted] = useState(true);
+	const [isSubmitted, setIsSubmitted] = useState(false);
 	const [email, setEmail] = useState('')
 
 	function toForm() {
