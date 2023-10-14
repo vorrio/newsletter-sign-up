@@ -56,10 +56,10 @@ export default function SignUpForm({onSubmit}) {
 		</div>
 	);
 }
-git 
+
 function CheckList({list}) {
-	const listItems = list.map(item => 
-		<li className='checklist-item'>
+	const listItems = list.map((item, index) => 
+		<li key={index} className='checklist-item'>
 			<img src={listIcon} alt="" />
 			<p className='form-text'>{item}</p>
 		</li>

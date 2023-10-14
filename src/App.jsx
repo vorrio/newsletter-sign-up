@@ -9,7 +9,6 @@ function App() {
 	const [email, setEmail] = useState('')
 
 	function toForm() {
-		console.log("bacl")
 		setIsSubmitted(false);
 	}
 	function toMessageSuccess(email) {
